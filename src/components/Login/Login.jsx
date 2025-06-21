@@ -30,7 +30,7 @@ const Login = () => {
 
     const handleAlreadyAccount = (e) => {
         e.preventDefault();
-        navigate('/userpanel');
+        navigate('/');
     };
 
     return (
