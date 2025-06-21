@@ -1,9 +1,8 @@
 import React from 'react'
 import lzycrazy from '../../assets/lzy.png'
 import './UserPanel.css'
-import Signup from '../Singin/Sign'
 import { MdSearch } from 'react-icons/md' // <-- Add this import
-import Login from '../Login/login'
+import Login from '../Login/Login'
 
 const UserPanel2 = () => {
   return (
