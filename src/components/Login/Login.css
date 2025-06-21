@@ -1,0 +1,157 @@
+.login-container {
+  max-width: 520px;      /* Increased width */
+  margin: 48px auto;
+  padding: 20px 32px;    /* Less vertical padding for reduced height */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 6px;
+  color: #444;
+  font-weight: 500;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.2s;
+  background: #f9f9f9;
+}
+
+.login-form input:focus {
+  border: 1.5px solid #007bff;
+  outline: none;
+  background: #fff;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+   background: linear-gradient(90deg,rgb(125, 61, 245) 20%, #f838d8 80%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-form button:hover {
+  background: linear-gradient(90deg,rgb(125, 61, 245) 20%, #f838d8 80%);
+}
+
+.login-error {
+  color: #e74c3c;
+  background: #ffeaea;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 0.98rem;
+}
+
+.login-links {
+  text-align: right;
+  margin-bottom: 18px;
+}
+
+.forgot-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.98rem;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.login-divider {
+  text-align: center;
+  margin: 18px 0;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.social-login {
+  display: flex;
+  gap: 12px;
+}
+
+.google-btn, .facebook-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.google-btn {
+  background: #fff;
+  color: #222;
+  border: 1.5px solid #4285f4;
+}
+
+.google-btn:hover {
+  background: #e3f0ff;
+}
+
+.facebook-btn {
+border: solid #1877f3;
+  color: black;
+}
+
+.facebook-btn:hover {
+border: solid #1877f3;
+  color: black;
+}
+
+.input-icon-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  
+  border-radius: 8px;
+  padding-left: 8px;
+}
+
+.input-icon-group input {
+  border: none;
+  background: transparent;
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input-icon {
+  color: #888;
+  font-size: 1.4rem;
+  margin-right: 8px;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  vertical-align: middle;
+}

@@ -1,0 +1,91 @@
+.body{
+    display: flex;
+}
+.image-sec{
+    height: 150px;
+    width: 220px;
+
+}
+
+.img-div{
+    margin-left: 11rem;
+    margin-top: 5rem;
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 18px;
+    margin-left: 7rem;
+    background: none;
+    height: 50px;
+    width: 20rem;
+    padding-bottom: 35px;
+}
+.search-icon {
+  position: absolute;
+  left: 12px;
+  color: #888;
+  font-size: 1.4rem;
+  pointer-events: none;
+}
+
+.search-input{
+    border: none;
+    height: 50px;
+    font-size: 16px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    width:25rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding-bottom: 3px;
+    padding-left: 38px; /* Make space for the icon */
+    background-color:rgb(254, 255, 255);
+;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;              /* Allow wrapping to next row */
+    margin-left: 2rem;
+    gap: 18px;
+    padding-bottom: 2px;
+    justify-content: flex-start;
+    max-width: 42rem;
+    font-size: 13px;             /* 3 boxes * 12rem + 2*gap */
+}
+ul div{
+    background-color: #ffffff;
+    height: 30px;
+    width: 10rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;          /* Space between rows */
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Remove this so all boxes are shown */
+ul div:nth-child(n+4) {
+    display: flex;
+}
+
+    
+
+.main-section{
+        margin-left: -3rem;
+
+}
