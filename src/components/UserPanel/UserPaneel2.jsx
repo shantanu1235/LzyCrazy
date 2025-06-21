@@ -2,7 +2,7 @@ import React from 'react'
 import lzycrazy from '../../assets/lzy.png'
 import './UserPanel.css'
 import { MdSearch } from 'react-icons/md' // <-- Add this import
-import Login from '../Login/Login'
+import Login from '../Login./Login.jsx'
 
 const UserPanel2 = () => {
   return (
