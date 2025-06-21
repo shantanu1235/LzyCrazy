@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import UserPanel from './components/UserPanel/UserPanel'
-import Login from './components/Login/login'
+import Login from './components/Login/Login'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import UserPanel2 from './components/UserPanel/UserPaneel2';
 
